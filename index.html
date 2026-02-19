@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="el" style="scroll-padding-top: 5rem;">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Allwise AI | AI Αυτοματισμοί για Επιχειρήσεις στην Ελλάδα</title>
+
+  <meta name="description" content="Σχεδιάζουμε και υλοποιούμε AI αυτοματισμούς που μειώνουν κόστος και απλοποιούν τη λειτουργία επιχειρήσεων στην Ελλάδα. Χωρίς περιττή πολυπλοκότητα." />
+  <meta name="keywords" content="AI αυτοματισμοί, n8n, αυτοματοποίηση επιχειρήσεων, AI agency Ελλάδα, leads automation, CRM αυτοματοποίηση" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Allwise AI" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Allwise AI | AI Αυτοματισμοί για Επιχειρήσεις" />
+  <meta property="og:description" content="Σχεδιάζουμε και υλοποιούμε AI αυτοματισμούς για επιχειρήσεις στην Ελλάδα." />
+  <meta property="og:image" content="https://allwiseai.gr/favicon.png" />
+  <meta property="og:url" content="https://allwiseai.gr" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="el_GR" />
+
+  <!-- Twitter Card (also used by LinkedIn, Slack, WhatsApp for link previews) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Allwise AI | AI Αυτοματισμοί για Επιχειρήσεις" />
+  <meta name="twitter:description" content="Σχεδιάζουμε και υλοποιούμε AI αυτοματισμούς για επιχειρήσεις στην Ελλάδα." />
+  <meta name="twitter:image" content="https://allwiseai.gr/favicon.png" />
+
+  <!-- Canonical & Favicon -->
+  <link rel="canonical" href="https://allwiseai.gr" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Allwise AI",
+    "url": "https://allwiseai.gr",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@allwiseai.gr",
+      "contactType": "customer support"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/allwise-ai",
+      "https://www.instagram.com/allwise.ai",
+      "https://www.facebook.com/allwise.ai"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Τι ακριβώς κάνει η Allwise AI;",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Βοηθάμε επιχειρήσεις να εξοικονομήσουν χρόνο και χρήμα, αυτοματοποιώντας επαναλαμβανόμενες διαδικασίες μέσω Τεχνητής Νοημοσύνης."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Είναι οι λύσεις σας ασφαλείς για τα δεδομένα μας;",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Απολύτως. Η ασφάλεια των δεδομένων είναι προτεραιότητά μας. Χρησιμοποιούμε κρυπτογραφημένα πρωτόκολλα και συμμορφωνόμαστε πλήρως με τον GDPR."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Χρειάζεται να έχω τεχνικές γνώσεις;",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Όχι. Αναλαμβάνουμε πλήρως την τεχνική υλοποίηση και σας παραδίδουμε συστήματα έτοιμα προς χρήση."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Πόσο κοστίζει μια συνεργασία;",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Το κόστος εξαρτάται από την πολυπλοκότητα των αυτοματισμών. Προσφέρουμε δωρεάν αρχική συμβουλευτική για να εκτιμήσουμε τις ανάγκες σας."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#5227FF',
+            accent: '#00F2FF',
+          },
+          animation: {
+            blob: "blob 7s infinite",
+            'fade-in': 'fadeIn 1s ease-out forwards',
+            'spin-slow': 'spin 40s linear infinite',
+            'reverse-spin': 'reverseSpin 50s linear infinite',
+          },
+          keyframes: {
+            blob: {
+              "0%": {
+                transform: "translate(0px, 0px) scale(1)",
+              },
+              "33%": {
+                transform: "translate(30px, -50px) scale(1.1)",
+              },
+              "66%": {
+                transform: "translate(-20px, 20px) scale(0.9)",
+              },
+              "100%": {
+                transform: "translate(0px, 0px) scale(1)",
+              },
+            },
+            fadeIn: {
+              '0%': { opacity: '0', transform: 'translateY(10px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            reverseSpin: {
+              from: { transform: 'rotate(360deg)' },
+              to: { transform: 'rotate(0deg)' },
+            }
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #020617; /* Dark Slate background base */
+      color: #f8fafc;
+    }
+    .glass {
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .glass:hover {
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid rgba(82, 39, 255, 0.3);
+    }
+    .waving-hand {
+      display: inline-block;
+      animation-name: wave;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+      transform-origin: 70% 70%;
+    }
+    @keyframes wave {
+      0% { transform: rotate(0.0deg); }
+      10% { transform: rotate(14.0deg); }
+      20% { transform: rotate(-8.0deg); }
+      30% { transform: rotate(14.0deg); }
+      40% { transform: rotate(-4.0deg); }
+      50% { transform: rotate(10.0deg); }
+      60% { transform: rotate(0.0deg); }
+      100% { transform: rotate(0.0deg); }
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
