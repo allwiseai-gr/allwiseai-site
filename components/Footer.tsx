@@ -24,7 +24,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenCookies, onOpenPre
             <div className="flex gap-4">
               {[
                 { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/company/allwise-ai' },
-                { icon: <Instagram size={20} />, href: 'https://www.instagram.com/allwise.ai' },
+                { icon: <Instagram size={20} />, href: 'https://www.instagram.com/allwise_ai' },
                 { icon: <Facebook size={20} />, href: 'https://www.facebook.com/allwise.ai' }
               ].map((social, idx) => (
                 <a 
